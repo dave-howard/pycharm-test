@@ -67,4 +67,4 @@ for i in range(2):
 #split string into list
 print("this is a test".split())
 print(type("this is a test".split()))
-print("1,2,3,4".split(","))
+print(set("1,1,3,4".split(",")))
